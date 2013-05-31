@@ -11,16 +11,12 @@ bob = Turtle()
 
 # This is where you put code to move bob
 
-def square(turtle):
-	fd(turtle, 50)
-	rt(turtle)
-	fd(turtle, 50)
-	rt(turtle)
-	fd(turtle, 50)
-	rt(turtle)
-	fd(turtle, 50)
-	rt(turtle)
-square(bob)
+def polygon(turtle, n):
+		for i in range(4):
+			fd(turtle, n)
+			rt(turtle)
+polygon(bob, 50)
+
 
 
 
