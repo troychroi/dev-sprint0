@@ -11,6 +11,16 @@ bob = Turtle()
 
 # This is where you put code to move bob
 
+def square(turtle):
+	fd(turtle, 50)
+	rt(turtle)
+	fd(turtle, 50)
+	rt(turtle)
+	fd(turtle, 50)
+	rt(turtle)
+	fd(turtle, 50)
+	rt(turtle)
+square(bob)
 
 
 
