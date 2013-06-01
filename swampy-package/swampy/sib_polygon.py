@@ -16,9 +16,12 @@ def polygon(turtle, l, n):
 			fd(turtle, l)
 			rt(turtle, 360/n)
 #polygon(bob, 50, 8)
-
-# move onto circle() 
-
+ 
+def circle(turtle, l, n):
+	for i in range(n):
+		fd(turtle, l/n)
+		rt(turtle, 360/n)
+circle(bob, 100, 50)
 
 
 
