@@ -14,10 +14,16 @@ bob = Turtle()
 def polygon(turtle, l, n):
 		for i in range(n):
 			fd(turtle, l)
-			rt(turtle)
-polygon(bob, 50, 4)
+			rt(turtle, 360/n)
+#polygon(bob, 50, 8)
 
-# look at step 3 on http://rampuplabs.startupinstitute.com/?p=111
+# move onto circle() 
+
+
+
+
+	
+
 
 
 
