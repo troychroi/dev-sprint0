@@ -6,8 +6,9 @@
 from TurtleWorld import * 		
 world = TurtleWorld()			
 bob = Turtle()				
-
-
+bob.delay = 0.01
+ray = Turtle()
+jay = Turtle()
 
 # This is where you put code to move bob
 
@@ -15,13 +16,13 @@ def polygon(turtle, l, n):
 		for i in range(n):
 			fd(turtle, l)
 			rt(turtle, 360/n)
-#polygon(bob, 50, 8)
+polygon(ray, 50, 8)
  
 def circle(turtle, l, n):
 	for i in range(n):
 		fd(turtle, l/n)
 		rt(turtle, 360/n)
-#circle(bob, 100, 50)
+circle(jay, 200, 100)
 
 def arc(turtle, l, n, theta):
 	for i in range(n*theta/360):
