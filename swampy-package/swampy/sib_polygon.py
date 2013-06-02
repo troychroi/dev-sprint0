@@ -27,7 +27,7 @@ def arc(turtle, l, n, theta):
 	for i in range(n*theta/360):
 		fd(turtle, l/n)
 		rt(turtle, 360/n)
-arc(bob, 50, 25, 360)
+arc(bob, 100, 50, 90)
 
 
 
