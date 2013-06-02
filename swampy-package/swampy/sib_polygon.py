@@ -21,7 +21,15 @@ def circle(turtle, l, n):
 	for i in range(n):
 		fd(turtle, l/n)
 		rt(turtle, 360/n)
-circle(bob, 100, 50)
+#circle(bob, 100, 50)
+
+def arc(turtle, l, n, theta):
+	for i in range(n*theta/360):
+		fd(turtle, l/n)
+		rt(turtle, 360/n)
+arc(bob, 50, 25, 360)
+
+
 
 
 
