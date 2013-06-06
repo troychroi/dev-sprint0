@@ -25,6 +25,7 @@ def polygon(turtle, l, n):
 			rt(turtle, 360.00/n)
 polygon(ray, 50, 8)
  
+ 
 def circle(turtle, l, n):
 	for i in range(n):
 		curve(turtle, l, n)
